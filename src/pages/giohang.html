@@ -1,0 +1,76 @@
+<section>
+  <div class="container">
+    <div class="title-giohang">
+      <div class="row">
+        <div class="col-3">
+          <h3>Giỏ Hàng</h3>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <table id="cart" class="table table-hover table-condensed">
+      <thead>
+        <tr>
+          <th style="width: 50%">Tên sản phẩm</th>
+          <th style="width: 10%">Giá</th>
+          <th style="width: 8%">Số lượng</th>
+          <th style="width: 22%">Thành tiền</th>
+          <th style="width: 10%">Function</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="spgh in listSpGiohang">
+          <td>{{spgh.name}}</td>
+          <td>{{spgh.price}}</td>
+          <td>{{spgh.quantity}}</td>
+          <td>{{spgh.price*spgh.quantity}}</td>
+          <td class="actions" data-th="">
+            <a ng-click="xoaGiohang($event, $index)" href="#xoa#!{{spgh.id}}">
+              Xóa
+            </a>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="visible-xs">
+          <td class="text-center"><strong></strong></td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#trangChu" class="btn btn-warning"
+              ><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a
+            >
+          </td>
+          <td colspan="2" class="hidden-xs"></td>
+          <td class="hidden-xs text-center">
+            <strong></strong>
+          </td>
+          <td>
+            <a href="#" class="btn btn-success btn-block"
+              >Thanh toán <i class="fa fa-angle-right"></i
+            ></a>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</section>

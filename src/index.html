@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../css/plugin/css 19.12.13/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/custom/style.css" />
+    <link rel="stylesheet" href="../css/custom/dangnhap.css" />
+    <link rel="stylesheet" href="../css/custom/gioithieu.css" />
+    <link rel="stylesheet" href="../css/custom/quenmatkhau.css" />
+    <link rel="stylesheet" href="../css/custom/dangky.css" />
+    <link rel="stylesheet" href="../css/custom/sanpham.css" />
+    <link rel="stylesheet" href="../css/custom/quanlysanpham.css" />
+    <link rel="stylesheet" href="../css/custom/giohang.css" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <header ng-include="'layout/header.html'"></header>
+    <section ng-view></section>
+    <footer ng-include="'layout/footer.html'"></footer>
+
+    <script src="../lib/angular.js"></script>
+    <script src="../lib/angular-route.js"></script>
+    <script src="./controler/ass.js"></script>
+    <script src="./config/api.js"></script>
+    <script src="./route.js"></script>
+
+    <script src="../js/plugin/js/bootstrap.bundle.js"></script>
+    <script src="../js/plugin/js/bootstrap.min.js"></script>
+  </body>
+</html>

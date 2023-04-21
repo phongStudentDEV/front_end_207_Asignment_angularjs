@@ -1,0 +1,63 @@
+<section>
+  <div class="container">
+    <div class="signupFrm">
+      <form action="" class="form">
+        <h1 class="title">Sign up</h1>
+
+        <div class="inputContainer">
+          <input
+            type="text"
+            class="input"
+            placeholder="a"
+            ng-model="form_dangky.email"
+          />
+          <label for="" class="label">Email</label>
+        </div>
+
+        <div class="inputContainer">
+          <input
+            type="text"
+            class="input"
+            placeholder="a"
+            ng-model="form_dangky.user"
+          />
+          <label for="" class="label">Username</label>
+        </div>
+
+        <div class="inputContainer">
+          <input
+            type="password"
+            class="input"
+            placeholder="a"
+            ng-model="form_dangky.password"
+          />
+          <label for="" class="label">Password</label>
+        </div>
+
+        <div class="inputContainer">
+          <input
+            type="password"
+            class="input"
+            placeholder="a"
+            ng-model="form_dangky.confirmPassword"
+          />
+          <label for="" class="label">Confirm Password</label>
+        </div>
+
+        <label
+          for=""
+          class="label"
+          value="{{thongbaodangky}}"
+          ng-model="thongbaodangky"
+        ></label>
+        <input
+          type="submit"
+          class="submitBtn"
+          ng-click="dangky()"
+          value="Sign up"
+        />
+        <a href=""></a>
+      </form>
+    </div>
+  </div>
+</section>

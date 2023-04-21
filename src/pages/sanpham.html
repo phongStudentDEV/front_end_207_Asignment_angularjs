@@ -1,0 +1,89 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-2" id="tabbar">
+        <nav class="nav flex-column" id="tabbar-nav">
+          <a class="nav-link" href="#sanpham">ĐIỆN THOẠI</a>
+          <a class="nav-link" href="#sanpham">AIR PODS</a>
+          <a class="nav-link" href="#sanpham-applewatch">APPLE WATCH</a>
+          <a class="nav-link" href="#sanpham-applewatch">PHỤ KIỆN</a>
+        </nav>
+      </div>
+      <div class="col-10">
+        <div class="row">
+          <hr />
+          <h4 class="title-thuonghieu">SẢN PHẨM HÓT NHẤT THÁNG</h4>
+
+          <div class="col-3">
+            <img
+              src="../../assets/anh-slide/sanphamhot1.jpeg"
+              alt=""
+              class="img-thuonghieu"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="../../assets/anh-slide/sanphamhot2.png"
+              alt=""
+              class="img-thuonghieu"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="../../assets/anh-slide/sanphamhot3.jpeg"
+              alt=""
+              class="img-thuonghieu"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="../../assets/anh-slide/sanphamhot4.jpeg"
+              alt=""
+              class="img-thuonghieu"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <hr />
+          <div class="col-4" ng-repeat="dd in listSanPham">
+            <div class="card-col">
+              <div class="card">
+                <img
+                  src="../assets/img/{{dd.img}}"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text">{{dd.name}}</p>
+                  <p class="card-body-gia">{{dd.price}} vnđ</p>
+                </div>
+                <div class="danhgia">
+                  <img
+                    src="../../assets/bootstrap-icons-1.10.3/star-fill.svg"
+                    alt=""
+                  />
+                  <img
+                    src="../../assets/bootstrap-icons-1.10.3/star-fill.svg"
+                    alt=""
+                  />
+                  <img
+                    src="../../assets/bootstrap-icons-1.10.3/star-fill.svg"
+                    alt=""
+                  />
+                  <img
+                    src="../../assets/bootstrap-icons-1.10.3/star-fill.svg"
+                    alt=""
+                  />
+                  <img
+                    src="../../assets/bootstrap-icons-1.10.3/star-half.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

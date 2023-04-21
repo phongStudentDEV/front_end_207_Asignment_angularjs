@@ -1,0 +1,38 @@
+#title {
+  text-align: center;
+  padding-top: 15px;
+  color: brown;
+}
+#button {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.contendangky {
+  text-align: center;
+}
+.dangnhap {
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+#form-dangnhap {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.img-fluid {
+  border-radius: 5px;
+  width: 100%;
+  height: 300px;
+  margin-top: 1px;
+  margin-bottom: 2%;
+}
+.formdangnhap-quenmatkhau {
+  color: darkcyan;
+}
+.formdangnhap-contendangky {
+  color: darkcyan;
+}

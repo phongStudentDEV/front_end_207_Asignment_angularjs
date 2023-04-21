@@ -1,0 +1,115 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-2" id="tabbar">
+        <nav class="nav flex-column" id="tabbar-nav">
+          <a class="nav-link" id="tabbar-nav">Trang Cá Nhân</a>
+          <a class="nav-link" id="tabbar-nav" href="#quanlysanpham"
+            >Quản Lý Sản Phẩm</a
+          >
+          <a class="nav-link" id="tabbar-nav" href="#quanlytheloai"
+            >Quản Lý Thể Loại</a
+          >
+          <a class="nav-link" id="tabbar-nav" href="#dangnhap">Đăng Xuất</a>
+        </nav>
+      </div>
+      <div class="col-10">
+        <div class="conten-quanlysanpham">
+          <h4>QUẢN LÝ SẢN PHẨM</h4>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">NAME</label>
+              <input
+                type="text"
+                class="form-control"
+                ng-model="form_dienthoai.name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >PRICE</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                ng-model="form_dienthoai.price"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">IMG</label>
+              <input
+                type="text"
+                class="form-control"
+                id="file-upload"
+                ng-model="form_dienthoai.img"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >COLOR</label
+              >
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                ng-model="form_dienthoai.color"
+              >
+                <option value="{{ms.color}}" ng-repeat="ms in listMauSac">
+                  {{ms.color}}
+                </option>
+              </select>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              ng-click="addSanPham($event)"
+            >
+              ADD
+            </button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              ng-click="update($event)"
+            >
+              UPDATE
+            </button>
+          </form>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">PRIVE</th>
+                <th scope="col">IMG</th>
+                <th scope="col">PRODUCT</th>
+                <th scope="col">FUNCTION</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="dt in listSanPham">
+                <th>{{$index+1}}</th>
+                <td>{{dt.name}}</td>
+                <td>{{dt.price}}</td>
+                <td>
+                  <img width="100px" src="../assets/img/{{dt.img}}" alt="" />
+                </td>
+                <td>{{dt.color}}</td>
+                <td>
+                  <a
+                    href="#dentail#!{{dt.id}}"
+                    ng-click="dentail($event, $index)"
+                    >DENTAIL</a
+                  >
+                  <span>|</span>
+                  <a href="#remove#!{{dt.id}}" ng-click="remove($event, $index)"
+                    >REMOVE</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

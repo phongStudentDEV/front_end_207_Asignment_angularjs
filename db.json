@@ -1,0 +1,280 @@
+{
+  "dangkytaikhoan": [
+    {
+      "id": 1,
+      "email": "",
+      "user": "",
+      "password": "",
+      "confirmPassword": ""
+    },
+    {
+      "id": 4,
+      "email": "aaa",
+      "user": "aaas",
+      "password": "a",
+      "confirmPassword": "a"
+    },
+    {
+      "id": 5,
+      "email": "a",
+      "user": "a",
+      "password": "s",
+      "confirmPassword": "s"
+    },
+    {
+      "id": 6,
+      "email": "c",
+      "user": "c",
+      "password": "c",
+      "confirmPassword": "c"
+    },
+    {
+      "id": 7,
+      "email": "f",
+      "user": "f",
+      "password": "f",
+      "confirmPassword": "f"
+    },
+    {
+      "id": 8,
+      "email": "aa",
+      "user": "aa",
+      "password": "aa",
+      "confirmPassword": "aa"
+    },
+    {
+      "id": 9,
+      "email": "a",
+      "user": "a",
+      "password": "a",
+      "confirmPassword": "a"
+    },
+    {
+      "id": 10,
+      "email": "aa",
+      "user": "c",
+      "password": "aa",
+      "confirmPassword": "aa"
+    }
+  ],
+  "spGiohang": [
+    {
+      "quantity": 1,
+      "img": "iphone_13.jpeg",
+      "name": "name 9",
+      "ram": "",
+      "color": "Lam",
+      "price": "9",
+      "date": "",
+      "id": "9"
+    },
+    {
+      "quantity": 1,
+      "img": "iphone14promax1.png",
+      "name": "name 3",
+      "ram": "",
+      "color": "Vàng",
+      "price": "3",
+      "date": "",
+      "id": "3"
+    }
+  ],
+  "sanphamtrangchu": [
+    {
+      "loai": "iphone14",
+      "img": "iphone14promax1.png",
+      "name": "name 3",
+      "ram": 256,
+      "color": "Vàng",
+      "price": "3",
+      "date": 1676262162,
+      "id": "3"
+    },
+    {
+      "loai": "iphone13",
+      "img": "iphone_13_pro_max.jpeg",
+      "name": "name 4",
+      "ram": 512,
+      "color": "Trắng",
+      "price": "4",
+      "date": 1676262102,
+      "id": "4"
+    },
+    {
+      "loai": "iphone12",
+      "img": "iphone_13_pro_max.jpeg",
+      "name": "name 5",
+      "ram": 1024,
+      "color": "Đỏ",
+      "price": "5",
+      "date": 1676262042,
+      "id": "5"
+    },
+    {
+      "loai": "iphone12",
+      "img": "iphone_13_pro.jpeg",
+      "name": "name 6",
+      "ram": 64,
+      "color": "Xám",
+      "price": "6",
+      "date": 1676262027,
+      "id": "6"
+    },
+    {
+      "loai": "iphone12",
+      "img": "iphone_13.jpeg",
+      "name": "name 7",
+      "ram": 6,
+      "color": "Xanh Rêu",
+      "price": "7",
+      "date": 1676261967,
+      "id": "7"
+    },
+    {
+      "loai": "iphone13",
+      "img": "iphone_13_pro.jpeg",
+      "name": "name 8",
+      "ram": 128,
+      "color": "Tím",
+      "price": "8",
+      "date": 1676261907,
+      "id": "8"
+    },
+    {
+      "loai": "iphone12",
+      "img": "IPHONE_12_MINI.jpeg",
+      "name": "name 10",
+      "ram": 64,
+      "color": "Lục",
+      "price": "10",
+      "date": 1676261787,
+      "id": "10"
+    },
+    {
+      "loai": "iphone14",
+      "img": "iphone_13.jpeg",
+      "name": "xdxe",
+      "ram": "",
+      "color": "Vàng",
+      "price": "2222",
+      "date": "",
+      "id": "HaSU0jf"
+    }
+  ],
+  "sanphamDienthoai": [
+    {
+      "loai": "Iphone 14",
+      "img": "iphone14promax1.png",
+      "name": "name 3",
+      "ram": 256,
+      "color": "Vàng",
+      "price": "3",
+      "date": 1676262162,
+      "id": "3"
+    },
+    {
+      "loai": "Iphone 14",
+      "img": "iphone_13_pro_max.jpeg",
+      "name": "name 4",
+      "ram": 512,
+      "color": "Trắng",
+      "price": "4",
+      "date": 1676262102,
+      "id": "4"
+    },
+    {
+      "loai": "Iphone 14",
+      "img": "iphone_13_pro_max.jpeg",
+      "name": "name 5",
+      "ram": 1024,
+      "color": "Đỏ",
+      "price": "5",
+      "date": 1676262042,
+      "id": "5"
+    },
+    {
+      "loai": "Iphone 12",
+      "img": "iphone_13_pro.jpeg",
+      "name": "name 6",
+      "ram": 64,
+      "color": "Xám",
+      "price": "6",
+      "date": 1676262027,
+      "id": "6"
+    },
+    {
+      "loai": "Iphone 13",
+      "img": "iphone_13.jpeg",
+      "name": "name 7",
+      "ram": 6,
+      "color": "Xanh Rêu",
+      "price": "7",
+      "date": 1676261967,
+      "id": "7"
+    },
+    {
+      "loai": "Iphone 13",
+      "img": "iphone_13_pro.jpeg",
+      "name": "name 8",
+      "ram": 128,
+      "color": "Tím",
+      "price": "8",
+      "date": 1676261907,
+      "id": "8"
+    },
+    {
+      "loai": "Iphone 12",
+      "img": "iphone_13.jpeg",
+      "name": "name 9",
+      "ram": 128,
+      "color": "Lam",
+      "price": "9",
+      "date": 1676261847,
+      "id": "9"
+    },
+    {
+      "loai": "iphone12",
+      "img": "IPHONE_12_MINI.jpeg",
+      "name": "name 10",
+      "ram": 64,
+      "color": "Lục",
+      "price": "10",
+      "date": 1676261787,
+      "id": "10"
+    },
+    {
+      "loai": "iphone11",
+      "img": "iphone_13.jpeg",
+      "name": "qqqqq",
+      "ram": "",
+      "color": "Vàng",
+      "price": "2222",
+      "date": "",
+      "id": "HaSU0jf"
+    },
+    {
+      "loai": "iphone14",
+      "img": "iphone14promax1.png",
+      "name": "sdfa",
+      "ram": "",
+      "color": "tím",
+      "price": "a",
+      "date": "",
+      "id": "-oCOA1i"
+    }
+  ],
+  "mausacdienthoai": [
+    {
+      "id": "1",
+      "color": "tím"
+    },
+    {
+      "id": "-59Fb9m",
+      "color": "xam"
+    },
+    {
+      "id": "snatHne",
+      "color": "xanh"
+    }
+  ]
+}
